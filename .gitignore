@@ -1,0 +1,26 @@
+# 排除非鹿鸣相关文件
+*.png
+*.db
+venv/
+__pycache__/
+*.pyc
+dashboard/
+code/
+三日无言/
+memory/
+建筑单位数据.txt
+*.log
+code-editor.html
+run_test.sh
+test_*.py
+upgrade_astrbot.sh
+astrbot_log*.txt
+astrbot_log_viewer.html
+astrboot_scroll*.png
+compress.log
+
+# 保留鹿鸣
+!鹿鸣的知识库/
+!鹿鸣的记忆库/
+!鹿鸣的记忆库/tools/
+!鹿鸣的记忆库/tools/*.py
